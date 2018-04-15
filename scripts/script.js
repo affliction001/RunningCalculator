@@ -33,8 +33,8 @@ for (;;) {
 		countDays += writeDayWeek(needKm, weekPattern, d)[1];
 	}
 
-	arrayForShow.push(`<br>ИТОГО: Ваш общий километраж составит: ------ ${countDays} км.`);
-	arrayForShow.push(`-----: Cредний километраж в день составит: - ${Math.round(countDays / arrayDays.length * 10) / 10} км.`);
+	arrayForShow.push(`<br>Ваш общий километраж составит: - ${countDays} км.`);
+	arrayForShow.push(`Cредний километраж в день составит: - ${Math.round(countDays / arrayDays.length * 10) / 10} км.`);
 
 	arrayForShow.push(`<br><hr>`);
 
