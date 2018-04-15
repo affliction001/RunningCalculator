@@ -29,7 +29,7 @@ for (;;) {
 	weekPattern = prompt("Ваш план на неделю. Сделайте шаблон для распределения км по дням учитывая 100% за неделю. Для примера, значения через пробел: 0 20 10 20 15 5 30", "0 20 10 20 15 5 30").split(" ");
 
 	for (let d of arrayDays) {
-		arrayForShow.push(`${d} :: ${writeDayWeek(needKm, weekPattern, d)[0]}`);
+		arrayForShow.push(`${d} : ${writeDayWeek(needKm, weekPattern, d)[0]}`);
 		countDays += writeDayWeek(needKm, weekPattern, d)[1];
 	}
 
