@@ -89,25 +89,25 @@ function writeDayWeek(dayKm, weekKm, dayDate) {
 	var week7 = Math.round(weekKm[6] / 100 * fullWeek);
 
 	switch (new Date(dayDate).getDay()) {
-		case 0: str = "Понедельник ----- " + week1 + " км.";
+		case 0: str = "Понедельник - " + week1 + " км.";
 				weekValue = week1;
 				break;
-		case 1: str = "Вторник --------- " + week2 + " км.";
+		case 1: str = "Вторник ----- " + week2 + " км.";
 				weekValue = week2;
 				break;
-		case 2: str = "Среда ----------- " + week3 + " км.";
+		case 2: str = "Среда ------- " + week3 + " км.";
 				weekValue = week3;
 				break;
-		case 3: str = "Четверг --------- " + week4 + " км.";
+		case 3: str = "Четверг ----- " + week4 + " км.";
 				weekValue = week4;
 				break;
-		case 4: str = "Пятница --------- " + week5 + " км.";
+		case 4: str = "Пятница ----- " + week5 + " км.";
 				weekValue = week5;
 				break;
-		case 5: str = "Суббота --------- " + week6 + " км.";
+		case 5: str = "Суббота ----- " + week6 + " км.";
 				weekValue = week6;
 				break;
-		case 6: str = "Воскресенье ----- " + week7 + " км.";
+		case 6: str = "Воскресенье - " + week7 + " км.";
 				weekValue = week7;
 				break;
 	}
